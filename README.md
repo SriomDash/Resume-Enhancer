@@ -1,18 +1,1 @@
-****🔍 Resume Processing & Enhancement Script**
-**
-
-This script automates the process of enhancing resumes using the following steps:
-
-PDF to Image Conversion – Converts resume PDFs into images.
-
-Preprocessing – Cleans and prepares the image (e.g., denoising, thresholding).
-
-OCR (Optical Character Recognition) – Extracts text from the image.
-
-Keyword Extraction – Identifies important keywords from the resume.
-
-Keyword Matching – Compares resume keywords with job-related keywords.
-
-Link Checker – Verifies if any URLs (e.g., portfolio, LinkedIn) in the resume are valid and working.
-
-Gemini API Integration – Sends all extracted information to the Gemini API for further analysis, suggestions, and improvements.
+This code is designed to automate and enhance the resume analysis process using a series of intelligent steps. It begins by converting a PDF resume into an image format to facilitate further processing. The image is then preprocessed using techniques like denoising and thresholding to improve clarity and ensure accurate text extraction. Optical Character Recognition (OCR) is applied next to extract the textual content from the image. Once the text is available, the script identifies and extracts important keywords from the resume, which are then compared against a predefined list of job-relevant keywords to evaluate how well the resume matches specific roles. Additionally, the code scans for any hyperlinks (such as LinkedIn, GitHub, or portfolio links) included in the resume and checks whether these links are valid and accessible. All the extracted data—text content, keywords, and link statuses—are compiled and sent to the Gemini API. The API processes this input to provide detailed insights, suggestions, and improvements for enhancing the overall quality and relevance of the resume.
