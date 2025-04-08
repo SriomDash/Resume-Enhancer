@@ -1,4 +1,6 @@
-🔍 Resume Processing & Enhancement Script
+****🔍 Resume Processing & Enhancement Script**
+**
+
 This script automates the process of enhancing resumes using the following steps:
 
 PDF to Image Conversion – Converts resume PDFs into images.
