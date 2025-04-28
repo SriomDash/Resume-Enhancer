@@ -14,8 +14,6 @@ from nltk.tokenize import word_tokenize
 from google import genai
 import sys
 
-# Download required NLTK data silently
-
 class DocumentProcessor:
     def __init__(self, input_file=None, gemini_api=None):
         # Initialize with file path if provided
