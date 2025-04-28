@@ -334,7 +334,6 @@ def main():
     # Get configuration from environment variables
     input_file = os.getenv("INPUT_FILE")
     gemini_api = os.getenv("GEMINI_API")
-    output_file = os.getenv("OUTPUT_FILE")
     
     if not input_file:
         print("Error: INPUT_FILE environment variable not set")
@@ -342,10 +341,6 @@ def main():
     
     if not gemini_api:
         print("Error: GEMINI_API environment variable not set")
-        return
-    
-    if not output_file:
-        print("Error: OUTPUT_FILE environment variable not set")
         return
     
     # Create processor instance
