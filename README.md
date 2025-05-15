@@ -92,7 +92,7 @@ The repository is organized into three main directories:
 ## 📄 Usage
 
 1. Upload your current resume in PDF or DOCX format.
-2. Select the job description you're targeting.
+2. Select the role you're targeting.
 3. Receive tailored suggestions to optimize your resume content.
 
 ## 👥 Team Members
